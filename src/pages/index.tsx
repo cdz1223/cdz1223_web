@@ -10,19 +10,20 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+    <header className={clsx(styles.heroBanner)}>
+    <div className="container">
+      <img src={'https://i0.wp.com/hackazine-tw.com/wp-content/uploads/2019/08/pepe-2.png?resize=660%2C660&ssl=1'} style={{width: 280, borderRadius: '50%'}} /> 
+      <h1 className="hero__title">{siteConfig.title}</h1>
+      <p className="hero__subtitle">{siteConfig.tagline}</p>
+      <div className={styles.buttons}>
+        <Link
+          className="button button--secondary button--lg"
+          to="/docs/my_intro">
+          前往網站 →
+        </Link>
       </div>
-    </header>
+    </div>
+  </header>
   );
 }
 
