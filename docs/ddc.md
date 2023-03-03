@@ -190,10 +190,11 @@ npm run serve //在local端測試
 
 # GitHub操作:
 
-<aside>
+:::danger
+
 💡 在GitHub建立**Repositories (需要與上面的<GitHub_Repositories_name>相同)**
 
-</aside>
+::: 
 
 在Terminal輸入
 
