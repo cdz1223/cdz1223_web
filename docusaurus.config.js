@@ -64,6 +64,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      algolia:{
+        apiKey:"1c96bace0fe530b30c77bdf5b738f9c3",
+        appId:"ZY31QKSH6Y",
+        indexName:"cdz1223_Docusaurus",
+      },
+
       image: 'img/pig.png',
       navbar: {
         title: 'cdz1223',
