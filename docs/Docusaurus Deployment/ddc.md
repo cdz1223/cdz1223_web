@@ -1,4 +1,4 @@
-# Docsaurus Deploy on GitHub
+# --Manual--Docsaurus Deploy on GitHub
 
 # Download Node.js
 
