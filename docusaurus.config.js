@@ -79,7 +79,7 @@ const config = {
             label: 'Menu',
           },
          // {to: '/blog', label: 'Blog', position: 'left'}
-         ,
+         
           {
             href: 'https://github.com/cdz1223',
             label: 'GitHub',
